@@ -10,5 +10,10 @@ public class Main{
         System.out.println(name);
 
 
+        String text =" How are     you";
+        text = text.replace( ' ','_');
+        System.out.println(text);
+
+
     }
 }
