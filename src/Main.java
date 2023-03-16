@@ -18,5 +18,12 @@ public class Main{
         letter = letter.replace("<|name|>","ABHIMA");
         System.out.println(letter);
 
+        String myString = "This string contains double and  triple spaces";
+        System.out.println(myString.indexOf("  "));
+        System.out.println(myString.indexOf("   "));
+
+        String myletter = "Dear Harry,\n\t This Java course is nice. \n Thanks";
+        System.out.println(myletter);
+
     }
 }
